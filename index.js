@@ -11,7 +11,9 @@ app.use(express.json());
 app.use(express.static('public'));
 
 const greetings = {
-    'english' : 'Hello'
+    'english' : 'Hello' ,
+    'zulu' : 'Sawubona' ,
+   'xhosa' : 'Molo' 
 }
 
 app.get('/api/greet', function(req, res){
