@@ -12,6 +12,6 @@ POST https://greeting-api-g0mh.onrender.com/api/greet
 content-type: application/json
 
 {
-	"language" : "Zulu",
-	"greeting" : "Sawubona"
+	"language" : "French",
+	"greeting" : "Bonjour"
 }
